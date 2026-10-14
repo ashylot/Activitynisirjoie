@@ -1,8 +1,8 @@
 class Book:
     def __init__(self, title: str = "", number_of_pages: int = 0, is_fictional: bool = False):
-        self._title = title
+        self.title = title
         self._number_of_pages = number_of_pages
-        self._is_fictional = is_fictional
+        self.is_fictional = is_fictional
 
     def get_title(self) -> str:
         return self._title
